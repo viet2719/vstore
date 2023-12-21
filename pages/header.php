@@ -9,7 +9,7 @@ if (isset($_GET['dangxuat']) && $_GET['dangxuat'] == 1) {
 // Khi họ đăng nhập, bạn có thể
 // Khi họ đăng nhập, bạn có thể truy cập $_SESSION['cart'] để lấy thông tin giỏ hàng của họ
 ?>
-<div class="header ">
+<div class="header header1">
     <a href="index.php">
         <div class="logo-header pd-28">V STORE</div>
     </a>

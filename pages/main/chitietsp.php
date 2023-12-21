@@ -56,7 +56,7 @@ WHERE size_soluong.id_sanpham = '$_GET[idsanpham]'";
         <div id="product">
             <div id="backtoshop">
                 <a href="./index.php">
-                    < back to new arrivals</a>
+                    < Back to new arrivals</a>
             </div>
         </div>
         <div class="product-container">
@@ -123,8 +123,6 @@ WHERE size_soluong.id_sanpham = '$_GET[idsanpham]'";
                                     <p id="soluong-label">Số lượng: </p>
                                     <input type="number" id="soluong" name="soluong" min="1" max="1" disabled oninput="updateQuantityLabel(this.value)">
                                 </div>
-
-
                         </div>
                         <div class="detail-right-info-price">
 
@@ -176,21 +174,13 @@ WHERE size_soluong.id_sanpham = '$_GET[idsanpham]'";
                             </div>
                             <div class="delivery-info-item">
                                 <div class="delivery-info-icon"><a href="index.php?quanly=chinhsach&id=4"><i class="fas fa-credit-card"></i></a></div>
-                                <span class="phuonganhheader">Thanh toán dễ dàng<br>Nhiều hình thức<br>Hotline hỗ trợ 039
-                                    9999 365</span>
+                                <span class="phuonganhheader">Thanh toán dễ dàng<br>Nhiều hình thức<br>Hotline hỗ trợ 086 904 7103</span>
                             </div>
                         </div>
                     </div>
 
                 </div>
-
-
-
-
-
-
                 </form>
-
                 <div class="product-description">
                     <div class="description-content">
                         <div class="description-productdetail">
@@ -205,7 +195,7 @@ WHERE size_soluong.id_sanpham = '$_GET[idsanpham]'";
                                 <strong>&nbsp;&nbsp;</strong>
                                 STREETWEAR BRAND LIMITED&nbsp;&nbsp;✦
                                 <br>
-                                Copyright © 2023 V Store. All rights reserved
+                                Copyright © 2023 HV Store. All rights reserved
                             </p>
                             <p>&nbsp;</p>
                             <p>&nbsp;</p>
@@ -214,6 +204,12 @@ WHERE size_soluong.id_sanpham = '$_GET[idsanpham]'";
                             <p>&nbsp;</p>
                         </div>
                     </div>
+                </div>
+                <div>
+                    <div>
+                        <h2>Bình luận</h2>
+                    </div>
+
                 </div>
             </div>
         </div>

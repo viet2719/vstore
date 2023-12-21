@@ -40,21 +40,11 @@ $ipnUrl = "http://localhost/banhang/index.php";
 $extraData = "";
 
 
-// if (!empty($_POST)) {
-// $partnerCode = $_POST["partnerCode"];
-// $accessKey = $_POST["accessKey"];
-// $serectkey = $_POST["secretKey"];
-// $orderId = $_POST["orderId"]; // Mã đơn hàng
-// $orderInfo = $_POST["orderInfo"];
-// $amount = $_POST["amount"];
-// $ipnUrl = $_POST["ipnUrl"];
-// $redirectUrl = $_POST["redirectUrl"];
-// $extraData = $_POST["extraData"];
+
 
 $requestId = time() . "";
 $requestType = "payWithATM";
-// $extraData = ($_POST["extraData"] ? $_POST["extraData"] : "");
-//before sign HMAC SHA256 signature
+
 $rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&ipnUrl=" . $ipnUrl . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo . "&partnerCode=" . $partnerCode . "&redirectUrl=" . $redirectUrl . "&requestId=" . $requestId . "&requestType=" . $requestType;
 $signature = hash_hmac("sha256", $rawHash, $secretKey);
 $data = array(

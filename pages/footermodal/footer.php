@@ -62,7 +62,7 @@
                 <div class="one-1">
                     <div class="one-footer">
                         <H4>FOLLOW US ON SOCIAL MEDIA</H4><br><br>
-                        <a href="https://www.facebook.com/hadesvietnam/">
+                        <a href="https://www.facebook.com">
                             <img src="https://png.pngtree.com/png-clipart/20190215/ourlarge/pngtree-facebook-icon-png-image_548407.jpg">
                         </a>
                         <a href="https://www.instagram.com/accounts/login/">
