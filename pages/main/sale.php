@@ -15,9 +15,7 @@
     $sql_pro = "SELECT * FROM tbl_sanpham WHERE km>0 ORDER BY km DESC LIMIT $begin,8"; //lấy tất cả sản phẩm dựa vào id 
     $query_pro = mysqli_query($mysqli, $sql_pro);
     //get ten danh muc
-    // $sql_cate = "SELECT * FROM tbl_danhmuc WHERE tbl_danhmuc.id_danhmuc = '$_GET[id]' LIMIT 1";
-    // $query_cate = mysqli_query($mysqli,$sql_cate);
-    // $row_title = mysqli_fetch_array($query_cate);
+
 
     ?>
 

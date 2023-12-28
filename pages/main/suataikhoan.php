@@ -25,11 +25,7 @@ while ($row = mysqli_fetch_array($query_sua_cs)) {
     <form action="#" method="POST">
         <div class="login-form">
             <div class="login-container">
-                <a href="./index.php" class="header-zz">
-                    <div class="logo-wrapper">
-                        <!-- <img src="./assets/img/logo.webp" alt="logo"> -->
-                    </div>
-                </a>
+
                 <h2>Sửa thông tin tài khoản </h2>
                 <a>Tên <span style="color:red">*</span></a><br>
                 <input type="text" placeholder="<?php echo $row['tenkhachhang'] ?>" name="hoten"><br>

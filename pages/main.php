@@ -1,4 +1,4 @@
-<div class="main">
+<div class="main1">
     <div>
         <?php
 

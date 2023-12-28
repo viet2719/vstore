@@ -80,11 +80,7 @@ if (isset($_POST['dangky'])) {
 <form action="#" method="POST">
     <div class="login-form">
         <div class="login-container">
-            <a href="./index.php" class="header-zz">
-                <div class="logo-wrapper">
-                    <!-- <img src="./assets/img/logo.webp" alt="logo"> -->
-                </div>
-            </a>
+
             <h2> Đăng kí </h2>
             <input type="text" placeholder="Họ tên" name="hoten"><br>
 

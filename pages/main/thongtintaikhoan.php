@@ -1,14 +1,7 @@
 <div class="login-form">
     <div class="login-container">
-        <a href="./index.php" class="header-zz">
-            <div class="logo-wrapper">
-                <!-- <img src="./assets/img/logo.webp" alt="logo"> -->
-            </div>
-        </a>
+
         <h1 style="text-align:center;"> TÀI KHOẢN CỦA BẠN </h1>
-
-
-
         <div>
             <?php
             $sql_pro = "SELECT * FROM tbl_khackhang WHERE tbl_khackhang.id_khachhang = '$_GET[id]'  LIMIT 1"; //lấy tất cả sản phẩm dựa vào id 

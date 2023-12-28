@@ -77,11 +77,7 @@ if (isset($_POST['dangnhap'])) {
 <form name="loginForm" action="" method="POST" onsubmit="return validateForm()">
     <div class="login-form">
         <div class="login-container">
-            <a href="./index.php" class="header-zz">
-                <div class="logo-wrapper">
-                    <!-- <img src="./assets/img/logo.webp" alt="logo"> -->
-                </div>
-            </a>
+
             <h2> Đăng nhập </h2>
             <a>Email <span style="color:red">*</span></a><br>
             <input type="text" name="email"><br>

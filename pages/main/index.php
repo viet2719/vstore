@@ -1,11 +1,11 @@
-<div class="main-slider">
+<div class="main-slider1">
     <?php
     $sql_anhtrangbia = "SELECT * FROM tbl_anhtrangbia WHERE tinhtrang=1";
     $query_anhtrangbia = mysqli_query($mysqli, $sql_anhtrangbia);
     while ($row_anhtrangbia = mysqli_fetch_array($query_anhtrangbia)) {
     ?>
         <a href="#"><img class="mySlider" src="./admincp/modules/anhtrangbia/uploads/<?php echo $row_anhtrangbia['hinhanh'] ?>" height=auto width=100%></a>
-        <!-- <a href="#"><img class="mySlider" src="./assets/img/Anh BTL to1.jpg" height = auto width = 100%></a> -->
+
     <?php } ?>
 </div>
 <script>
