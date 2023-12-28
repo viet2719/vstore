@@ -48,16 +48,14 @@
         session_start();
         include('./admincp/config/config.php');
         include('./pages/header.php');
-        include('./pages/siderbar.php');
+        // include('./pages/siderbar.php');
         include('./pages/main.php');
         ?>
     </div>
 
     </div>
     <div class="clear"></div>
-    <!-- <div class="footer">
-    <p>✦ WELLCOME TO HADES STREETWEAR BRAND LIMITED ✦</p>
-</div> -->
+
 
 </body>
 

@@ -9,8 +9,8 @@ if (isset($_GET['dangxuat']) && $_GET['dangxuat'] == 1) {
 // Khi họ đăng nhập, bạn có thể
 // Khi họ đăng nhập, bạn có thể truy cập $_SESSION['cart'] để lấy thông tin giỏ hàng của họ
 ?>
-<div>
-    <div class="header header1">
+<div class="header-top">
+    <div class="header1">
         <a href="index.php">
             <div class="logo-header pd-28">V STORE</div>
         </a>
@@ -71,6 +71,11 @@ if (isset($_GET['dangxuat']) && $_GET['dangxuat'] == 1) {
                 ?>
             </i>
         </label>
+    </div>
+    <div class="menu">
+        <?php
+        include('./pages/siderbar.php');
+        ?>
     </div>
 
 </div>

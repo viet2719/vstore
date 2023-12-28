@@ -89,7 +89,7 @@ body{
     font-family: 'Agbalumo' !important;
     font-weight: 500;
     display: inline-block;
-    margin-right: 20%;
+    margin-right: 25%;
 }
 .account-links {
     display: inline-block; 
@@ -141,6 +141,7 @@ a.cart-shopping.pd-28 {
 }
 
 .sidebar ul {
+    display: flex;
     margin-top: 8px;
     list-style: none;
     text-decoration: none;
