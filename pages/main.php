@@ -51,14 +51,14 @@
             include('./pages/main/index.php');
         }
         ?>
-        <!-- phần code của đạt tb -->
+
         <?php
         include('./pages/footermodal/footer.php');
         ?>
         <?php
         include('./pages/footermodal/cart.php');
         ?>
-        <!-- kết thúc code đạt tb -->
+
         <div class="clear"></div>
     </div>
     <div class="clear"></div>
