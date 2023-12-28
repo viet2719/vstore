@@ -186,7 +186,6 @@ span.original-price {
 
 span.original-price:after {
     background-color: initial;
-    background-image: url(https://file.hstatic.net/1000306633/file/111_ae69cf24dc964f258349efab9c4ae975.png) !important;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 60px 40px;

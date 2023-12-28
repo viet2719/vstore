@@ -3,7 +3,6 @@ ob_start();
 $sql_danhmuc = "SELECT * FROM `tbl_danhmuc` ORDER BY `tbl_danhmuc`.`thutu` ASC";
 $query_danhmuc = mysqli_query($mysqli, $sql_danhmuc);
 ?>
-
 <div class="sidebar">
     <div class="toggle-sidebar-btn" onclick="toggleSidebar()">
         <span class="open-icon">&#9776;</span>
@@ -11,7 +10,7 @@ $query_danhmuc = mysqli_query($mysqli, $sql_danhmuc);
     </div>
 
     <ul>
-        <li><a href="index.php?quanly=shopall"><i class="ti-hand-point-right"></i>SHOP ALL</a></li>
+        <li><a href="index.php?quanly=shopall"></i>SHOP ALL</a></li>
         <li>
             <a href="index.php?quanly=sale" class="my-custom-link">
 
@@ -22,7 +21,7 @@ $query_danhmuc = mysqli_query($mysqli, $sql_danhmuc);
         <?php
         while ($row_danhmuc = mysqli_fetch_array($query_danhmuc)) {
         ?>
-            <li><a href="index.php?quanly=danhmuc&id=<?php echo $row_danhmuc['id_danhmuc'] ?>"><i class="ti-hand-point-right"></i><?php echo $row_danhmuc['tendanhmuc'] ?></a></li>
+            <li><a href="index.php?quanly=danhmuc&id=<?php echo $row_danhmuc['id_danhmuc'] ?>"><?php echo $row_danhmuc['tendanhmuc'] ?></a></li>
         <?php
         }
         ?>
